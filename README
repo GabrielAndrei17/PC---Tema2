@@ -1,0 +1,40 @@
+ANDREI Gabriel
+313CB
+
+Tema 2 PC
+                A GAME OF SCRABBLE
+Pentru rezolvarea cerintelor am folosit pentru fiecare 
+task o functie cu numele task i (i = numarul taskului).
+In functia main se va citi doar numarul taskului.
+(ex : functia task3 va rezolva in intregime taskul 3)
+
+Task1 :
+Se citeste inputul si se adauga in variabilele corespunzatoare
+cu ajutorul functiilor strtok si atoi.
+Pentru fiecare cuvant se va apela functia Adaugare_Cuvant in tabla de joc.
+
+Task2 :
+Pentru acest task, s-a citit asemanator ca la taskul anterior datele 
+de intrare si la fiecare jucator am adaugat la scorul total
+scorul cuvintelor calculat de functia calculScor.
+
+Task3 : 
+Spre deosebire de taskul 2, s-a calculat scorul unui cuvant 
+cu functia calculScor la care s-a inmultit cu bonus.
+Bonusul este dat de calculBonus.
+
+Task 4 :
+Pentru acest task, am salvat fiecare cuvant care apare la citire 
+intr-un vector (used_words) pentru a nu-l mai folosi din nou,
+dar am si adaugat cuvintele pe tabla de joc.
+Am parcurs toate cuvintele din vectorul words si daca nu a mai
+aparut, am incercat sa il adaug prin functia Insereaza_Cuvant.
+Daca inserarea a avut succes, ma opresc din cautat cuvinte.
+
+Task 5 :
+Asemanator ca la taskurile precedente. Pentru aflarea cuvantului 
+optim incerc sa pun fiecare cuvant (care se poate adauga) prin
+functia Insereaza_Cuvant2, daca apare un scor mai mare decat celelalte 
+il voi salva.
+La final, daca se poate adauga un cuvant si scorul este corespunzator,
+il adaug pe tabla de joc acela fiind cuvantul optim
